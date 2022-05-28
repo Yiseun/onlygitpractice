@@ -1,1 +1,4 @@
-commit history 이상없이 해결하는 연습
+git 연습용 repository
+
+1.브랜치 여러개 생성 - 다른 커밋 히스토리 생성
+
