@@ -3,7 +3,7 @@ git 연습용 repository
 
 
 case1.
--상황 :브랜치 여러개 생성 - 다른 commit history 생성(추측) - pull request 버튼은 뜨지만 merge할게 없다고 나옴
+-상황 : 브랜치 여러개 생성 - 다른 commit history 생성(추측) - pull request 버튼은 뜨지만 merge할게 없다고 나옴
 -해결방법 : 일단 pull로 당겨서 commit history를 같게 맞춰줘야한다
 
 case2.
@@ -17,7 +17,11 @@ git repository에 있는 모든 내용을 제거하기위해 local repository에
 
 -해결방법 : (추측) remote repository에 있는 branch들과 이름이 같게 브랜치를 생성하고 모든 브랜치를 ... 음 좀 더 생각해봐야겠다 (의문1. 이름이 같다고 remote repository의 branchname1이 local repository에 생성된 branchname과 같다고 할수있나? 이름만 같은거고 고유아이디값같은게 다른거 아닌가?)
 
+case3.
+-상황 : 연관없는 브랜치 병합
 
+case4.
+-상황 : 
 
 토큰관련 
 -해결방법1 : 토큰써야할때 비밀번호를 쓴거니 토큰을 적는다
