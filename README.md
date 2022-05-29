@@ -15,7 +15,7 @@ git repository에 있는 모든 내용을 제거하기위해 local repository에
 팀원3이 remote repository에 있는 최신내용을 가져가서 branch3을 생성하고 commit3를 해주고 remote repository에 push 해줬다
 팀원4가 remote repository에 있는 최신내용을 가져가서 branch4를 생성하고 commit4를 해주고 remote repository에 push 해줬다
 
--해결방법 : (추측) remote repository에 있는 branch들과 이름이 같게 브랜치를 생성하고 모든 브랜치를 ... 음 좀 더 생각해봐야겠다 (의문1. 이름이 같다고 remote repository의 branchname1이 local repository에 생성된 branchname과 같다고 할수있나? 이름만 같은거고 고유아이디값같은게 다른거 아닌가?)
+-해결방법 : (추측) remote repository에 있는 branch들과 이름이 같게 브랜치를 생성하고 모든 브랜치를 ... 음 좀 더 생각해봐야겠다 (의문1. 이름이 같다고 remote repository의 branchname1이 local repository에 생성된 branchname과 같다고 할수있나? 이름만 같은거고 고유아이디값같은게 다른거 아닌가?) -> 당연히 안된다 따로 인식을 시켜줘야했음
 
 case3.
 -상황 : 연관없는 브랜치 병합
