@@ -24,6 +24,34 @@ git repository에 있는 모든 내용을 제거하기위해 local repository에
 
 case3.
 -상황 : 
+1.git clone으로 git init 없이 local repository 지정 후 
+2.git add . 입력
+3. 
+warning: LF will be replaced by CRLF in demo/.gitignore.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/.mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/mvnw.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/mvnw.cmd.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/pom.xml.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/src/main/java/dev/sample/demo/DemoApplication.java.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/src/main/resources/application.properties.
+The file will have its original line endings in your working directory
+warning: LF will be replaced by CRLF in demo/src/test/java/dev/sample/demo/DemoApplicationTests.java.
+The file will have its original line endings in your working directory
+경고문 출력
+
+모르는것 : HEAD는 어디에?
+
+해결방법 : 그냥 단순 경고 메세지임
+리눅스에서 줄바꿈(개행)은 End of Line을 Line Feed(LF)로 나타내고
+윈도우에서 줄바꿈(개행)은 Carriage Return (CR) + Line Feed(LF)로 나타내기때문
+CRLF에서 LF로 변환해서 처리할것이라는 경고성 메세지임
+
 
 
 토큰관련 
