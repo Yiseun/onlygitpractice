@@ -52,6 +52,25 @@ The file will have its original line endings in your working directory
 윈도우에서 줄바꿈(개행)은 Carriage Return (CR) + Line Feed(LF)로 나타내기때문
 CRLF에서 LF로 변환해서 처리할것이라는 경고성 메세지임
 
+case4.
+-상황 : A 프로젝트에서 기존의 A브랜치 외에 B브랜치,C브랜치를 생성했다. (이때 모든 브랜치의 history는 같다)
+ 그런데 아무 변경사항도 없어야 할 B브랜치에 실수로 BB라는 파일이 추가됐다
+ BB를 commit 하지않고 B를 변경전으로 유지하는방법은?
+ 
+ 단, BB를 삭제하는건 안된다(삭제하면 delete:BB 이런식으로 뜨지않을까?)
+ 
+ 
+-시도 : git pull origin B브랜치 했지만 실패했다
+
+From https://github.com/remoterepositoryaddress
+ * branch            B브랜치     -> FETCH_HEAD
+Already up to date.
+
+
+-해결방법: git clone을 쓰면 해결될것 같긴하다(안해봄)
+
+
+
 
 
 토큰관련 
